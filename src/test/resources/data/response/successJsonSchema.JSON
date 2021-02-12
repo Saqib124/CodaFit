@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "plateNo": {
+          "type": "string"
+        },
+        "driverName": {
+          "type": "string"
+        },
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "location": {
+          "type": "string"
+        },
+        "imageURL": {
+          "type": "string"
+        },
+        "lastUpdated": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "plateNo",
+        "driverName",
+        "lat",
+        "lng",
+        "location",
+        "imageURL",
+        "lastUpdated"
+      ]
+    }
+  ]
+}
